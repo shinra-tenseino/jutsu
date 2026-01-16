@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shinra Tensei no Jutsu: Teknik destruktif Pain dalam serial Naruto. Pelajari sejarah, mekanisme, kelemahan, dan dampaknya dalam dunia shinobi.">
+    <meta name="keywords" content="Shinra Tensei, Pain, Naruto, jutsu, rinnegan, nagato, akatsuki">
+    <title>Shinra Tensei no Jutsu: Teknik Pamungkas Pain | Naruto Wiki</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #e74c3c;
+            --accent: #3498db;
+            --light: #ecf0f1;
+            --dark: #1a1a2e;
+            --purple-rinnegan: #6a0dad;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--dark);
+            color: var(--light);
+            line-height: 1.6;
+            background-image: linear-gradient(to bottom, var(--dark), #16213e);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(to right, var(--primary), #1a1a2e);
+            padding: 1.5rem 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo-icon {
+            color: var(--secondary);
+            font-size: 2.5rem;
+        }
+        
+        .logo h1 {
+            font-size: 1.8rem;
+            background: linear-gradient(to right, #e74c3c, #f39c12);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .logo span {
+            color: var(--accent);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+        
+        nav a {
+            color: var(--light);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        
+        nav a:hover {
+            color: var(--secondary);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 4rem 0;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            margin-bottom: 3rem;
+            border-radius: 0 0 20px 20px;
+        }
+        
+        .hero h2 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+            background: linear-gradient(to right, #f39c12, #e74c3c);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            color: #ddd;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(to right, var(--secondary), #c0392b);
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+            border: 2px solid transparent;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(231, 76, 60, 0.6);
+            border-color: white;
+        }
+        
+        /* Main Content */
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            margin-bottom: 3rem;
+        }
+        
+        .article-section {
+            background-color: rgba(30, 30, 46, 0.8);
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border-left: 5px solid var(--purple-rinnegan);
+        }
+        
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .section-title i {
+            color: var(--secondary);
+        }
+        
+        .jutsu-image {
+            width: 100%;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.5s ease;
+        }
+        
+        .jutsu-image:hover {
+            transform: scale(1.02);
+        }
+        
+        .highlight {
+            background: linear-gradient(to right, rgba(52, 152, 219, 0.2), rgba(155, 89, 182, 0.2));
+            border-left: 4px solid var(--purple-rinnegan);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 2rem 0;
+        }
+        
+        .info-card {
+            background-color: rgba(44, 62, 80, 0.6);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-top: 3px solid var(--accent);
+        }
+        
+        .info-card h3 {
+            color: var(--accent);
+            margin-bottom: 10px;
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            background-color: rgba(30, 30, 46, 0.8);
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .related-links {
+            margin-top: 2rem;
+        }
+        
+        .link-list {
+            list-style: none;
+            margin-top: 1rem;
+        }
+        
+        .link-list li {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .link-list a {
+            color: var(--light);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: color 0.3s ease;
+        }
+        
+        .link-list a:hover {
+            color: var(--secondary);
+        }
+        
+        .link-list i {
+            color: var(--purple-rinnegan);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--primary);
+            padding: 3rem 0 1.5rem;
+            margin-top: 3rem;
+            border-top: 5px solid var(--secondary);
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .footer-section h3 {
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: var(--light);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background-color: var(--secondary);
+            transform: translateY(-5px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero h2 {
+                font-size: 2.8rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .hero h2 {
+                font-size: 2.2rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Animation */
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(106, 13, 173, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(106, 13, 173, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(106, 13, 173, 0); }
+        }
+        
+        .rinnegan-icon {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: radial-gradient(circle, var(--purple-rinnegan) 30%, #9b59b6 100%);
+            border-radius: 50%;
+            margin-right: 10px;
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="rinnegan-icon"></div>
+                    <h1>Shinra<span>Tensei</span></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#pengertian"><i class="fas fa-info-circle"></i> Pengertian</a></li>
+                        <li><a href="#mekanisme"><i class="fas fa-cogs"></i> Mekanisme</a></li>
+                        <li><a href="#pengguna"><i class="fas fa-user-ninja"></i> Pengguna</a></li>
+                        <li><a href="#kelemahan"><i class="fas fa-shield-alt"></i> Kelemahan</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>SHINRA TENSEI NO JUTSU</h2>
+            <p>Teknik legendaris dari alam shinobi yang memanipulasi gaya tolak untuk menghancurkan segala sesuatu di sekitarnya. Teknik andalan Pain, pemimpin Akatsuki, yang mampu meluluhlantakkan Konohagakure dalam sekejap.</p>
+            <a href="#pengertian" class="cta-button">Pelajari Teknik Ini <i class="fas fa-arrow-down"></i></a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="main-content">
+            <!-- Article Section -->
+            <div class="article-content">
+                <section id="pengertian" class="article-section">
+                    <h2 class="section-title"><i class="fas fa-scroll"></i> Apa Itu Shinra Tensei?</h2>
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Ilustrasi Shinra Tensei" class="jutsu-image">
+                    <p>Shinra Tensei (神羅天征, secara harfiah berarti "Penghakiman Ilahi") adalah teknik serangan jarak jauh yang menggunakan kemampuan Rinnegan untuk memanipulasi gaya tolak (repulsi) pada tingkat molekuler. Teknik ini adalah salah satu dari Enam Jalan Pain yang dimiliki oleh Nagato dan digunakan melalui tubuh Pain.</p>
+                    <p>Dengan mengendalikan gaya tolak dan tarik, pengguna Shinra Tensei dapat menciptakan gelombang kejut yang menghancurkan segala sesuatu di sekelilingnya. Kekuatannya dapat diatur dari tingkat rendah hingga tertinggi yang mampu meluluhlantakkan seluruh desa.</p>
+                    
+                    <div class="highlight">
+                        <p><strong>Fakta Menarik:</strong> Shinra Tensei adalah teknik andalan Pain dalam menghancurkan Konohagakure. Dengan satu serangan maksimal, seluruh desa hancur berantakan dan menewaskan ratusan orang dalam sekejap.</p>
+                    </div>
+                </section>
+
+                <section id="mekanisme" class="article-section">
+                    <h2 class="section-title"><i class="fas fa-atom"></i> Mekanisme Kerja</h2>
+                    <p>Shinra Tensei bekerja dengan memanipulasi gaya tolak pada level subatomik. Pengguna Rinnegan dapat mengendalikan gaya fundamental ini untuk menciptakan pusat gravitasi negatif yang mendorong segala sesuatu menjauh dari titik pusat.</p>
+                    
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <h3><i class="fas fa-expand-arrows-alt"></i> Jangkauan</h3>
+                            <p>Dapat disesuaikan dari beberapa meter hingga radius ratusan meter. Versi terkuat memiliki radius mencapai beberapa kilometer.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3><i class="fas fa-clock"></i> Interval</h3>
+                            <p>Memiliki interval waktu 5 detik antara penggunaan. Ini adalah kelemahan utama teknik ini yang dieksploitasi oleh Naruto.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3><i class="fas fa-layer-group"></i> Tingkatan</h3>
+                            <p>Terdapat tiga tingkatan kekuatan: rendah (mendorong manusia), sedang (menghancurkan bangunan), dan maksimal (menghancurkan desa).</p>
+                        </div>
+                        <div class="info-card">
+                            <h3><i class="fas fa-eye"></i> Persyaratan</h3>
+                            <p>Hanya pengguna Rinnegan yang dapat menggunakan teknik ini. Membutuhkan chakra dalam jumlah besar untuk penggunaan maksimal.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="pengguna" class="article-section">
+                    <h2 class="section-title"><i class="fas fa-users"></i> Pengguna Shinra Tensei</h2>
+                    <img src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Ilustrasi karakter Naruto" class="jutsu-image">
+                    <p>Meskipun secara teknis setiap pengguna Rinnegan memiliki potensi untuk menggunakan Shinra Tensei, hanya sedikit karakter yang benar-benar ditunjukkan menggunakannya dalam serial Naruto:</p>
+                    <ul style="padding-left: 2rem; margin: 1.5rem 0;">
+                        <li><strong>Pain (Nagato)</strong> - Pengguna utama dan paling ahli dalam teknik ini</li>
+                        <li><strong>Madara Uchiha</strong> - Menggunakan versi lebih kuat setelah mendapatkan Rinnegan</li>
+                        <li><strong>Sasuke Uchiha</strong> - Secara teori mampu setelah mendapatkan Rinnegan, meskipun tidak sering digunakan</li>
+                    </ul>
+                    <p>Pain menggunakan teknik ini sebagai senjata pamungkas dalam pertarungan. Penggunaannya yang paling terkenal adalah ketika menghancurkan Konoha, yang mengakibatkan kehancuran total desa tersebut dan kematian banyak shinobi serta penduduk.</p>
+                </section>
+
+                <section id="kelemahan" class="article-section">
+                    <h2 class="section-title"><i class="fas fa-shield-alt"></i> Kelemahan & Penangkal</h2>
+                    <p>Meskipun sangat kuat, Shinra Tensei memiliki beberapa kelemahan yang dapat dieksploitasi:</p>
+                    
+                    <div class="highlight">
+                        <p><strong>Interval Waktu:</strong> Teknik ini memiliki interval 5 detik antara penggunaan. Selama interval ini, pengguna rentan terhadap serangan.</p>
+                    </div>
+                    
+                    <p>Selain interval waktu, ada beberapa cara untuk menangkal atau bertahan dari Shinra Tensei:</p>
+                    <ul style="padding-left: 2rem; margin: 1.5rem 0;">
+                        <li><strong>Senjutsu (Sage Mode)</strong> - Naruto berhasil bertahan dari Shinra Tensei dengan menggunakan Sage Mode</li>
+                        <li><strong>Serangan berkelanjutan</strong> - Menyerang tanpa henti untuk memanfaatkan interval 5 detik</li>
+                        <li><strong>Jarak</strong> - Menjauh dari radius serangan dapat mengurangi dampaknya</li>
+                        <li><strong>Pertahanan khusus</strong> - Teknik pertahanan tingkat tinggi seperti Susano'o dapat mengurangi dampak serangan</li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="article-section">
+                    <h2 class="section-title"><i class="fas fa-link"></i> Tautan Terkait</h2>
+                    <div class="related-links">
+                        <ul class="link-list">
+                            <li>
+                                <a href="https://naruto.fandom.com/wiki/Shinra_Tensei" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <span>Artikel Lengkap di Narutopedia</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://naruto.fandom.com/wiki/Pain" target="_blank">
+                                    <i class="fas fa-user-ninja"></i>
+                                    <span>Profil Lengkap Pain (Nagato)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://naruto.fandom.com/wiki/Rinnegan" target="_blank">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Kekuatan Mata Rinnegan</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://naruto.fandom.com/wiki/Banshō_Ten'in" target="_blank">
+                                    <i class="fas fa-magnet"></i>
+                                    <span>Banshō Ten'in (Teknik Tarik)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://naruto.fandom.com/wiki/Chibaku_Tensei" target="_blank">
+                                    <i class="fas fa-globe-asia"></i>
+                                    <span>Chibaku Tensei (Planetoid)</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="article-section" style="margin-top: 2rem;">
+                    <h2 class="section-title"><i class="fas fa-chart-bar"></i> Statistik Shinra Tensei</h2>
+                    <div style="margin-top: 1.5rem;">
+                        <h3 style="color: var(--accent); margin-bottom: 10px;">Tingkat Kekuatan:</h3>
+                        <div style="background-color: rgba(255,255,255,0.1); padding: 10px; border-radius: 5px; margin-bottom: 15px;">
+                            <div style="display: flex; justify-content: space-between;">
+                                <span>Rendah</span>
+                                <span>30%</span>
+                            </div>
+                            <div style="height: 10px; background: linear-gradient(to right, #3498db, #9b59b6); width: 30%; border-radius: 5px;"></div>
+                        </div>
+                        
+                        <div style="background-color: rgba(255,255,255,0.1); padding: 10px; border-radius: 5px; margin-bottom: 15px;">
+                            <div style="display: flex; justify-content: space-between;">
+                                <span>Sedang</span>
+                                <span>60%</span>
+                            </div>
+                            <div style="height: 10px; background: linear-gradient(to right, #9b59b6, #e74c3c); width: 60%; border-radius: 5px;"></div>
+                        </div>
+                        
+                        <div style="background-color: rgba(255,255,255,0.1); padding: 10px; border-radius: 5px; margin-bottom: 15px;">
+                            <div style="display: flex; justify-content: space-between;">
+                                <span>Maksimal</span>
+                                <span>100%</span>
+                            </div>
+                            <div style="height: 10px; background: linear-gradient(to right, #e74c3c, #c0392b); width: 100%; border-radius: 5px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Shinra Tensei Wiki</h3>
+                    <p>Situs informasi terlengkap tentang teknik-teknologi dalam dunia Naruto. Semua informasi di situs ini berdasarkan serial manga dan anime Naruto karya Masashi Kishimoto.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Tautan Cepat</h3>
+                    <ul class="link-list">
+                        <li><a href="#pengertian">Pengertian Shinra Tensei</a></li>
+                        <li><a href="#mekanisme">Mekanisme Kerja</a></li>
+                        <li><a href="#pengguna">Pengguna Teknik</a></li>
+                        <li><a href="#kelemahan">Kelemahan & Penangkal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Teknik Lainnya</h3>
+                    <ul class="link-list">
+                        <li><a href="https://naruto.fandom.com/wiki/Banshō_Ten'in" target="_blank">Banshō Ten'in</a></li>
+                        <li><a href="https://naruto.fandom.com/wiki/Chibaku_Tensei" target="_blank">Chibaku Tensei</a></li>
+                        <li><a href="https://naruto.fandom.com/wiki/Six_Paths_Techniques" target="_blank">Enam Jalan Pain</a></li>
+                        <li><a href="https://naruto.fandom.com/wiki/Amaterasu" target="_blank">Amaterasu</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Shinra Tensei no Jutsu Wiki. Hak Cipta dilindungi. Naruto adalah merek dagang dari Masashi Kishimoto/Shueisha.</p>
+                <p style="margin-top: 10px;">Situs ini dibuat untuk tujuan edukasi dan informasi tentang dunia Naruto.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling untuk navigasi
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Efek hover untuk gambar
+        document.querySelectorAll('.jutsu-image').forEach(img => {
+            img.addEventListener('mouseenter', function() {
+                this.style.transform = 'scale(1.05)';
+            });
+            
+            img.addEventListener('mouseleave', function() {
+                this.style.transform = 'scale(1)';
+            });
+        });
+        
+        // Animasi untuk tombol CTA
+        const ctaButton = document.querySelector('.cta-button');
+        ctaButton.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-5px)';
+        });
+        
+        ctaButton.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+        
+        // Menambahkan efek scroll untuk header
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.backgroundColor = 'rgba(26, 26, 46, 0.95)';
+                header.style.backdropFilter = 'blur(10px)';
+            } else {
+                header.style.backgroundColor = '';
+                header.style.backdropFilter = '';
+            }
+        });
+    </script>
+</body>
+</html>
